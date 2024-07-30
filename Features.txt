@@ -1,0 +1,44 @@
+Key Features::
+
+HTML5 and CSS3
+Bootstrap 5
+Progress Bar
+Donation Form UI
+Contact Form UI
+Burger Menu
+Drop-down Menu
+Responsive Header Carousel
+Hero Header
+On-Hover Effect
+Parallax Background
+Geolocation
+100% Responsive
+Cross-Browser Compatible
+Social Links with Icons
+Newsletter Subscription Form UI
+Back-to-top Button
+Social Links with Icons
+Clean and developer-friendly code
+Sticky and dropdown navigation bar
+Responsive header carousel
+Animation on page scrolling
+Social link with icon
+Google web font support
+Bootstrap icon font support
+Font Awesome v5
+
+In the Box ::
+9 HTML Pages
+HTML & CSS
+All JavaScript Source Files
+All Images
+All Libraries and Plugins
+
+Library & Plug-ins ::
+Bootstrap 5
+OwlCarousel
+Google Maps
+Google Fonts
+Favicon
+
+Thank You, ChariTeam!
