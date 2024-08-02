@@ -1,0 +1,20 @@
+[
+    { 
+        "title": "Child Education", 
+        "desc": "Providing quality education to empower young minds and build a better future.",
+        "image": "img/icon-1.png", 
+        "cta": "Learn More"
+    },
+    { 
+        "title": "Medical Treatment", 
+        "desc": "Delivering essential healthcare services to improve well-being.",
+        "image": "img/icon-2.png", 
+        "cta": "Learn More"
+    },
+    { 
+        "title": "Pure Drinking Water", 
+        "desc": "Ensuring access to clean and safe water to promote health and well-being.",
+        "image": "img/icon-3.png", 
+        "cta": "Learn More"
+    }
+]
