@@ -1,0 +1,42 @@
+[
+    { 
+        "name": "Elon", 
+        "designation": "Executive Director",
+        "image": "img/team-1.jpg", 
+        "social": {
+            "fbk": "/facebook.com",
+            "twt": "/twitter.com",
+            "inst": "/instagram.com"
+        }
+    },
+    { 
+        "name": "Serina", 
+        "designation": "Program Manager",
+        "image": "img/team-2.jpg", 
+        "social": {
+            "fbk": "/facebook.com",
+            "twt": "/twitter.com",
+            "inst": "/instagram.com"
+        }
+    },
+    { 
+        "name": "Emma", 
+        "designation": "Development Director",
+        "image": "img/team-3.jpg", 
+        "social": {
+            "fbk": "/facebook.com",
+            "twt": "/twitter.com",
+            "inst": "/instagram.com"
+        }
+    },
+    { 
+        "name": "Raji", 
+        "designation": "Finance Manager",
+        "image": "img/team-4.jpg", 
+        "social": {
+            "fbk": "/facebook.com",
+            "twt": "/twitter.com",
+            "inst": "/instagram.com"
+        }
+    }
+]

@@ -3,8 +3,8 @@
         "label": "Education", 
         "title": "Education For African Children", 
         "desc": "Empowering underprivileged children with essential skills and knowledge for a brighter future. Join us in making a meaningful impact on their lives.", 
-        "goal": "$10,000", 
-        "raised": "$9,542", 
+        "goal": "₦1,000,000", 
+        "raised": "₦900,542", 
         "progress": "90%", 
         "image": "img/courses-1.jpg", 
         "cta": "Read More"
@@ -13,8 +13,8 @@
         "label": "Pure Water", 
         "title": "Ensure Pure Drinking Water", 
         "desc": "Providing clean and safe drinking water to communities in need. Our goal is to eliminate waterborne diseases and improve health outcomes through accessible, reliable water solutions.", 
-        "goal": "$10,000", 
-        "raised": "$9,542", 
+        "goal": "₦1,000,000", 
+        "raised": "₦900,542", 
         "progress": "90%", 
         "image": "img/courses-2.jpg", 
         "cta": "Read More"
@@ -23,8 +23,8 @@
         "label": "Healthy Life", 
         "title": "Ensure Medical Treatment", 
         "desc": "Providing essential medical care and support to underserved communities. Our mission is to improve health outcomes and ensure access to quality treatment for all.", 
-        "goal": "$10,000", 
-        "raised": "$9,542", 
+        "goal": "₦1,000,000", 
+        "raised": "₦900,542", 
         "progress": "90%", 
         "image": "img/courses-3.jpg", 
         "cta": "Read More"

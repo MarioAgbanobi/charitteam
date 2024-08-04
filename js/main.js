@@ -140,5 +140,70 @@
         }
     });
 
+    // team
+    $(document).ready(function () {
+        $.getJSON('js/team.json', (teams) => {
+            displayTeams(teams);
+        }).fail(function (jqXHR, textStatus, errorThrown) {
+            console.error('There was a problem with the fetch operation:', textStatus, errorThrown);
+        });
+
+        function displayTeams(teams) {
+            const $container = $('#teamContainer');
+            if ($container.length === 0) {
+                console.error('Element with ID "teamsContainer" not found');
+                return;
+            }
+
+            let output = "";
+
+            $.each(teams, (index, team) => {
+                output += `
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item position-relative rounded overflow-hidden">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="${team.image}" alt="">
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>${team.name}</h5>
+                                <p class="text-primary">${team.designation}</p>
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square" href="${team.social.fbk}"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square" href="${team.social.twt}"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href="${team.social.inst}"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            $container.html(output);
+
+        }
+    });
+
+    // Testimonials carousel
+    $(".testimonial-carousel").owlCarousel({
+        autoplay: false,
+        smartSpeed: 1000,
+        center: true,
+        dots: false,
+        loop: true,
+        nav : true,
+        navText : [
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+        ],
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            }
+        }
+    });
+
 
 })(jQuery);
